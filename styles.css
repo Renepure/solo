@@ -1,0 +1,89 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Skranji', cursive;
+}
+
+h3{
+    font-size: bolder;
+    
+}
+img {
+    width: 120px;
+    border-radius: 1000%
+}
+
+#head{ 
+    margin-top: 75px;
+    color:#f48c06;
+    width: 200px;
+}
+#sub{
+    color:#f48c06;
+    width: 500px;  
+}
+#Hero{
+    background-image: url("stvg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:solid 1px;
+    height: 500px; 
+}
+
+#activities{
+    border: solid 1px lightgray;
+    flex-direction: column;
+    background: lightgray;
+    margin: 0;
+     
+}
+
+.Farge{
+    margin-right: auto;
+    width: 200px; 
+}
+.Stolen{
+    margin: 0 auto;
+    width: 200px;
+    margin-top: -100px; 
+    display: block;
+}
+
+.stadion{
+ margin-left: auto;
+    width: 200px;
+    margin-top: -100px;
+}
+
+#guide{
+    background: darkgray;
+    border: solid darkgray; 
+}
+  
+        
+  .card{
+      width: 400px;
+      border: solid lightgray;
+      display: flex;
+      margin:30px auto;
+      border-radius: 20px; 
+      background-color: lightgray;
+      padding: 30px;  
+  }
+
+.bilde{
+   width: 150px;
+   border-radius: 20px    
+}
